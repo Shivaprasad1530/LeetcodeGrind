@@ -3,7 +3,7 @@ class Solution {
         if(nums.length == 0){
             return 0;
         }
-        TreeSet<Integer> set =  new TreeSet<>();
+        Set<Integer> set =  new HashSet<>();
         for(int i=0;i<nums.length;i++){
             set.add(nums[i]);
         }
