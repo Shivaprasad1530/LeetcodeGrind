@@ -18,7 +18,7 @@ class Solution {
         List<List<Integer>> mainList = new LinkedList<>();
         Queue<TreeNode> que = new LinkedList<TreeNode>();
         if(root == null){
-            return mainList;
+            return new ArrayList<>();
         }
         que.offer(root);
         while(!que.isEmpty()){
