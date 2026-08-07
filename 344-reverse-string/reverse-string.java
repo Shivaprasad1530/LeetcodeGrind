@@ -7,6 +7,6 @@ class Solution {
             s[b] = temp;
             a++;b--;
         }
-        System.out.println(Arrays.toString(s));
+       // System.out.println(Arrays.toString(s));
     }
 }
